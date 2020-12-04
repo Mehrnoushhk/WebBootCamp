@@ -1,0 +1,153 @@
+body {
+    font-family: 'Source Sans Pro', sans-serif;
+    color: #333333;
+}
+h1, h2 {
+    text-align: center;
+}
+h2{
+    font-weight: 400;
+}
+.priceContainer {
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    border: 1px dashed blue;
+}
+.priceContainer h3 {
+    font-weight: bold;
+    font-size: 16px;
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+.priceFree{
+    margin: 20px;
+    border: 1px solid rgb(153,153,153);
+    border-radius: 10px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+    width: 260px
+}
+.freeAmount {
+    font-size: 60px;
+    margin-bottom: 0px;
+    padding-top: 20px;
+}
+.freeAmount span{
+    font-size: 24px;
+    vertical-align: super;
+    font-weight: 600;
+}
+.freeTime{
+    font-size: 18px;
+    color: rgb(153,153,153);
+}
+.freeInfo{
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+.freeInfo div{
+    margin: 0px;
+    padding: 0px;
+    text-decoration:underline dashed rgb(204,204,204);
+    font-size: 16px;
+    line-height: 22px;
+}
+.freeButton{
+    border: 1px solid rgb(255,45,96);
+    border-radius: 10px;
+    color:  rgb(255,45,96);
+    text-decoration: none;
+    font-size: 16px;
+    font-weight: bold;
+    text-align: center;
+    cursor: pointer;
+    padding: 15px 70px;
+}
+.freeButton a {
+    text-decoration: none;
+}
+.freeButton a:visited{
+    text-decoration: none;
+    color: rgb(255,45,96);
+}
+.priceUnlimited {
+    background-color: #ff2d60;
+    border:1px solid rgb(255,45,96);
+    border-radius: 10px;
+    color: white;
+    margin: 20px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+    width: 260px
+}
+.unlimitedAmount {
+    font-size: 60px;
+    margin-bottom: 0px;
+    padding-top: 20px;
+}
+.unlimitedAmount span {
+    font-size: 24px;
+    vertical-align: super;
+}
+.unlimitedTime {
+    font-size: 18px;
+}
+.unlimitedInfo {
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+.unlimitedInfo div{
+    margin: 0px;
+    padding: 0px;
+    text-decoration: underline dashed;
+    font-size: 16px;
+    line-height: 22px;
+}
+.unlimitedButton {
+    border: 1px solid white;
+    border-radius: 10px;
+    background-color: white;
+    color: rgb(255,45,96);
+    padding: 15px 70px;
+    font-weight: bold;
+    font-size: 16px;
+    cursor: pointer;
+}
+.priceEnterprise {
+    display: flex;
+    flex-direction: column;
+    margin: 20px;
+    border: 1px solid rgb(153,153,153);
+    border-radius: 10px;
+    text-align: center;
+    padding: 20px;
+    width:260px;
+}
+.enterpriseAmount{
+    font-size: 32px;
+    margin-top: 38px;
+    font-weight: bold;
+}
+.enterpriseTime{
+    margin-top: 10px;
+}
+.enterpriseButton {
+    border: 1px solid rgb(255,45,96);
+    border-radius: 10px;
+    padding: 15px 70px;
+    font-size: 16px;
+    font-weight: bold;
+    cursor: pointer;
+    text-decoration: none;
+}
+.enterpriseButton a {
+    text-decoration: none;
+}
+.enterpriseButton a:visited{
+    color: rgb(255,45,96);
+    text-decoration: none;
